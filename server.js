@@ -32,7 +32,14 @@ app.use((req,res,next)=>{
 //     )
 // }
 // );
+app.get("/projects",(req,res)=>{
+    res.render("projects.hbs",{
+        title: "Projects",
+        msg : "This page displays all the projects"
+    });
+}
 
+);
 
 
 
