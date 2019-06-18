@@ -24,14 +24,14 @@ app.use((req,res,next)=>{
 });
 
 
-app.use((req,res,next)=>{
-    res.render("maintainence.hbs",{
-        msg:"The site is under maintainence. It will be updated soon."
-    }
+// app.use((req,res,next)=>{
+//     res.render("maintainence.hbs",{
+//         msg:"The site is under maintainence. It will be updated soon."
+//     }
 
-    )
-}
-);
+//     )
+// }
+// );
 
 
 
